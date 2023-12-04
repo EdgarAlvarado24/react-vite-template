@@ -31,6 +31,7 @@ module.exports = {
 	},
 	plugins: ['react'],
 	rules: {
-		react: 'react/no-deprecated'
+		react: 'react/no-deprecated',
+		react: 'react/prop-types'
 	}
 };
